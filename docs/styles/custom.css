@@ -1,0 +1,101 @@
+ 
+body { 
+  
+  background: #7AF5F5;  
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; 
+  margin: 0;
+  padding: 0;
+
+} 
+ 
+  body h1 {
+    color: #0077be;
+    margin: 30px auto;
+  } 
+ 
+  body .tooltip {  
+    color: #fff;  
+    position: absolute;
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    text-align: center;    
+    padding: 10px;
+    font: 1em sans-serif;
+    border: 0px;
+    border-radius: 5px;
+    pointer-events: none;
+    -webkit-box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+    background: rgba(0,0,0,0.7);   
+ } 
+ 
+  body .footer {
+  width: 90%; 
+  margin: 20px auto 30px auto; 
+  text-align: center;
+  } 
+ 
+  body .footer ul {
+    text-align: center;
+    list-style: none; 
+    width: 100%;  
+    padding:0;
+    margin: 0 auto 25px auto;
+    } 
+ 
+  body .footer ul li {
+      display: inline;     
+      margin: 0 5px;
+      } 
+ 
+  body .footer ul li a {        
+        font-weight:400;
+        color: #0077be;              
+        display:inline-block;
+        text-decoration:none; 
+        margin-bottom: 10px;  
+        border:solid 3px #fff; 
+        border-radius:50%;        
+        width:50px;
+        height:50px;
+        text-align:center;
+        font-size:20px;
+        line-height:48px;
+        -webkit-transition:all .3s ease-in-out;
+        transition:all .3s ease-in-out;                    
+        } 
+ 
+  body .footer ul li a:hover {
+              -webkit-transform: scale(1.3);
+                      transform: scale(1.3);
+              color: #fff;
+              border:solid 2px #fff; 
+            } 
+ 
+  body .footer ul li a.linkedin:hover {
+              background: #007bb6;                  
+            } 
+ 
+  body .footer ul li a.personal-website:hover {
+              background: #79b044;
+            } 
+ 
+  body .footer ul li a.facebook:hover {
+              background: #3b5998;
+            } 
+ 
+  body .footer ul li a.github:hover {
+              background: #24292e;;
+            } 
+ 
+  body .footer ul li a.freecodecamp:hover {
+              background: #006400;
+            } 
+ 
+  body .footer ul li a.codepen:hover {
+              background: #722872;
+            }
+
+
